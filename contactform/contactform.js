@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     $.ajax({
       type: "POST",
-      url: "",
+      url: "https://script.google.com/macros/s/AKfycbwyQUUQ3Ksolix5yx3YfdNFUZr-gAle5UiW_d_fBJKLkehzC0PxytK8FdU0Z_HMVHVL/exec",
       data: str,
       success: function(msg) {
         // alert(msg);
