@@ -78,22 +78,22 @@
           <form id="submit-form"  action=""   class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email"required />
                 <div class="validation"></div>
               </div>
             </div>
 
              <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="tel" name="mobile" class="form-control" id="mobile" placeholder="Mobile No" data-rule="minlen:9" data-msg="Please enter a valid Mobile number" />
+                <input type="tel" name="mobile" class="form-control" id="mobile" placeholder="Mobile No" data-rule="minlen:9" data-msg="Please enter a valid Mobile number"required />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="query" id="query" placeholder="Query" data-rule="minlen:1" data-msg="Please enter your query" />
+                <input type="text" class="form-control" name="query" id="query" placeholder="Query" data-rule="minlen:1" data-msg="Please enter your query" required/>
                 <div class="validation"></div>
               </div>
             </div>
@@ -101,7 +101,7 @@
 
 
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><input type="submit" value="Submit"></button></div>
